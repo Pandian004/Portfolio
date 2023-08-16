@@ -1,0 +1,118 @@
+body{
+    margin-top: -3px;
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: #10609f;   
+   
+}
+.fp{
+    height: 100vh;
+    background-image: url("ProfilePic1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sp{
+    height: 100vh;
+    text-align: center;
+      
+}
+.tp{
+    height: 100vh;
+    text-align: center;
+}
+.fop{
+    height: 100vh;
+    text-align: center;
+}
+#Portfolio{
+    font-family: 'Courier New', Courier, monospace;
+    color: #10609f;
+    font-size: 25px;
+    padding-left: 3%;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+    font-size: 25px;
+}
+a:hover{
+    color:#F4C127;
+}
+nav{
+    float: right;
+    margin-top: -5.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+.content{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 8%;
+    background-color: #F4C127;
+    border-radius: 15px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.con{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding-top: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 8%;
+   background-color: #F4C127;
+   border-radius: 15px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+}
+li{
+    float: left;
+    margin-left: 9%;
+}
+#l1{
+    list-style-image: url("github.svg");
+    list-style-position: inside;
+
+}  
+#l2{
+    list-style-image: url("instagram.svg");
+    list-style-position: inside;
+}
+#l3{
+    list-style-image: url("envelope-regular.svg");
+    list-style-position: inside;
+}
+li::marker{
+    font-size: 70px;
+}
+.mw{
+    background-color: #F4C127;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    padding-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-bottom: 3%;
+    border-radius: 15px;
+    box-shadow: 0 10px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19)
+}
+.content1{
+    margin-left: 26%;
+   
+}
+.content2{
+    margin-left: 26%;
+   
+}
+img{
+    border: 1px solid black;
+    border-radius: 10px;
+}
+hr{
+    border: 1px solid black;
+}
+video{
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #10609f;
+}
